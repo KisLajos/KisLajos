@@ -45,6 +45,10 @@ html {
     background-color: #0099cc;
 }
 
+.menu a {
+    text-decoration: none;
+}
+
 .fadecaption {
     background-color: #222;
     color: #fff;
@@ -53,21 +57,8 @@ html {
     text-align: center;
 }
 
-.cappedimg {
-    display: flex;
-    flex-direction: column;
-}
-
 img {
     margin-top: 5px;
-}
-
-.gamename {
-    text-decoration: none;
-}
-
-.gamename:visited {
-    color: black;
 }
 
 .aside {
@@ -85,6 +76,12 @@ img {
     text-align: center;
     font-size: 12px;
     padding: 15px;
+}
+
+.res-img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 
